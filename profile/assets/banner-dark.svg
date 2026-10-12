@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Tensor Rails</title>
+<desc id="desc">Open-source tools and services for running inference and training workloads.</desc>
+<defs>
+  <clipPath id="card"><rect width="1280" height="360" rx="20"/></clipPath>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="12" cy="12" r="1.2" fill="#ffffff" fill-opacity="0.07"/>
+  </pattern>
+  <radialGradient id="gridfade" cx="980" cy="188" r="420" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="gridmask"><rect width="1280" height="360" fill="url(#gridfade)"/></mask>
+  <radialGradient id="glowp" cx="882" cy="148" r="240" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#9b4dff" stop-opacity="0.22"/><stop offset="1" stop-color="#9b4dff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowb" cx="1078" cy="148" r="240" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1e9bff" stop-opacity="0.22"/><stop offset="1" stop-color="#1e9bff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="railp" x1="680" y1="40" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e29bff"/><stop offset=".55" stop-color="#9b4dff"/><stop offset="1" stop-color="#5b21b6"/>
+  </linearGradient>
+  <linearGradient id="railb" x1="1280" y1="40" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#6fdcff"/><stop offset=".55" stop-color="#1e9bff"/><stop offset="1" stop-color="#1d4ed8"/>
+  </linearGradient>
+  <linearGradient id="fadex" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0.531" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0.617" stop-color="#fff"/>
+    <stop offset="0.914" stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="fadey" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+    <stop offset=".55" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/>
+  </linearGradient>
+  <mask id="fx"><rect width="1280" height="360" fill="url(#fadex)"/></mask>
+  <mask id="fy"><rect width="1280" height="360" fill="url(#fadey)"/></mask>
+  <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="halo" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="360" fill="#06070c"/>
+  <rect width="1280" height="360" fill="url(#dots)" mask="url(#gridmask)"/>
+  <rect width="1280" height="360" fill="url(#glowp)"/>
+  <rect width="1280" height="360" fill="url(#glowb)"/>
+  <g mask="url(#fx)"><g mask="url(#fy)">
+    <g fill="none" stroke-linecap="round" stroke-width="10" opacity="0.18" filter="url(#halo)">
+      <g stroke="url(#railp)"><path d="M 680 60 H 842 A 128 128 0 0 1 970 188 V 370"/><path d="M 680 80 H 842 A 108 108 0 0 1 950 188 V 370"/><path d="M 680 100 H 842 A 88 88 0 0 1 930 188 V 370"/><path d="M 680 120 H 842 A 68 68 0 0 1 910 188 V 370"/><path d="M 680 140 H 842 A 48 48 0 0 1 890 188 V 370"/><path d="M 680 160 H 842 A 28 28 0 0 1 870 188 V 370"/></g>
+      <g stroke="url(#railb)"><path d="M 1280 60 H 1118 A 128 128 0 0 0 990 188 V 370"/><path d="M 1280 80 H 1118 A 108 108 0 0 0 1010 188 V 370"/><path d="M 1280 100 H 1118 A 88 88 0 0 0 1030 188 V 370"/><path d="M 1280 120 H 1118 A 68 68 0 0 0 1050 188 V 370"/><path d="M 1280 140 H 1118 A 48 48 0 0 0 1070 188 V 370"/><path d="M 1280 160 H 1118 A 28 28 0 0 0 1090 188 V 370"/></g>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-width="3" opacity="0.95">
+      <g stroke="url(#railp)"><path d="M 680 60 H 842 A 128 128 0 0 1 970 188 V 370"/><path d="M 680 80 H 842 A 108 108 0 0 1 950 188 V 370"/><path d="M 680 100 H 842 A 88 88 0 0 1 930 188 V 370"/><path d="M 680 120 H 842 A 68 68 0 0 1 910 188 V 370"/><path d="M 680 140 H 842 A 48 48 0 0 1 890 188 V 370"/><path d="M 680 160 H 842 A 28 28 0 0 1 870 188 V 370"/></g>
+      <g stroke="url(#railb)"><path d="M 1280 60 H 1118 A 128 128 0 0 0 990 188 V 370"/><path d="M 1280 80 H 1118 A 108 108 0 0 0 1010 188 V 370"/><path d="M 1280 100 H 1118 A 88 88 0 0 0 1030 188 V 370"/><path d="M 1280 120 H 1118 A 68 68 0 0 0 1050 188 V 370"/><path d="M 1280 140 H 1118 A 48 48 0 0 0 1070 188 V 370"/><path d="M 1280 160 H 1118 A 28 28 0 0 0 1090 188 V 370"/></g>
+    </g>
+    <g color="#9b4dff"><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="7.5s" begin="-0.0s" repeatCount="indefinite" path="M 680 60 H 842 A 128 128 0 0 1 970 188 V 370"/></circle><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="8.4s" begin="-1.7s" repeatCount="indefinite" path="M 680 80 H 842 A 108 108 0 0 1 950 188 V 370"/></circle><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="9.3s" begin="-3.4s" repeatCount="indefinite" path="M 680 100 H 842 A 88 88 0 0 1 930 188 V 370"/></circle><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="10.2s" begin="-5.1s" repeatCount="indefinite" path="M 680 120 H 842 A 68 68 0 0 1 910 188 V 370"/></circle><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="11.1s" begin="-6.8s" repeatCount="indefinite" path="M 680 140 H 842 A 48 48 0 0 1 890 188 V 370"/></circle><circle r="4.5" fill="#f3e8ff" filter="url(#glow)"><animateMotion dur="12.0s" begin="-8.5s" repeatCount="indefinite" path="M 680 160 H 842 A 28 28 0 0 1 870 188 V 370"/></circle></g>
+    <g color="#1e9bff"><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="7.5s" begin="-0.8s" repeatCount="indefinite" path="M 1280 60 H 1118 A 128 128 0 0 0 990 188 V 370"/></circle><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="8.4s" begin="-2.5s" repeatCount="indefinite" path="M 1280 80 H 1118 A 108 108 0 0 0 1010 188 V 370"/></circle><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="9.3s" begin="-4.2s" repeatCount="indefinite" path="M 1280 100 H 1118 A 88 88 0 0 0 1030 188 V 370"/></circle><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="10.2s" begin="-5.9s" repeatCount="indefinite" path="M 1280 120 H 1118 A 68 68 0 0 0 1050 188 V 370"/></circle><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="11.1s" begin="-7.6s" repeatCount="indefinite" path="M 1280 140 H 1118 A 48 48 0 0 0 1070 188 V 370"/></circle><circle r="4.5" fill="#e0f4ff" filter="url(#glow)"><animateMotion dur="12.0s" begin="-9.3s" repeatCount="indefinite" path="M 1280 160 H 1118 A 28 28 0 0 0 1090 188 V 370"/></circle></g>
+  </g></g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="80" y="166" font-size="68" font-weight="700" letter-spacing="-1.6" fill="#f4f5fa">Tensor Rails</text>
+    <text x="82" y="222" font-size="24" fill="#9aa3b8">Open-source tools and services</text>
+    <text x="82" y="254" font-size="24" fill="#9aa3b8">for running inference and training workloads.</text>
+  </g>
+  
+</g>
+</svg>
